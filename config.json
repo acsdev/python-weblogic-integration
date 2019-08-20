@@ -1,0 +1,60 @@
+ {
+    "environments": [
+        {
+            "oracle_home" : "/home/eds000215/Dev/Oracle/Middleware12.1.3.0.0/Oracle_Home",
+            "name":"SIGAP_DSV",
+            "ssh_host":"172.16.16.41",
+            "ssh_usr":"oracle",
+            "ssh_pwd":"welcome1",
+            "admin_server_name":"SIGAPDSVAdmin",
+            "weblogic_host":"172.16.16.41",
+            "weblogic_port":"7001",
+            "weblogic_usr":"weblogic",
+            "weblogic_pwd":"welcome1",
+            "weblogic_domain_dir":"/u01/domains/sigap_dsv_domain",
+            "weblogic_nodes":["singap02", "sigap04","sigap08","ws02","timer02"]
+        },
+        {
+            "oracle_home" : "/home/eds000215/Dev/Oracle/Middleware12.1.3.0.0/Oracle_Home",
+            "name":"SIGAP_TST",
+            "ssh_host":"172.16.16.89",
+            "ssh_usr":"oracle",
+            "ssh_pwd":"welcome1",
+            "admin_server_name":"SIGAPTSTAdmin",
+            "weblogic_host":"172.16.16.89",
+            "weblogic_port":"7001",
+            "weblogic_usr":"weblogic",
+            "weblogic_pwd":"welcome1",
+            "weblogic_domain_dir":"/u01/domains/sigap_tst_domain",
+            "weblogic_nodes":["singap02", "sigap04","sigap08","ws02","timer02"]
+        },
+        {
+            "oracle_home" : "/home/eds000215/Dev/Oracle/Middleware12.1.3.0.0/Oracle_Home",
+            "name":"SIGAP_HML",
+            "ssh_host":"172.16.16.38",
+            "ssh_usr":"oracle",
+            "ssh_pwd":"welcome1",
+            "admin_server_name":"SIGAPHMLAdmin",
+            "weblogic_host":"172.16.16.38",
+            "weblogic_port":"7001",
+            "weblogic_usr":"weblogic",
+            "weblogic_pwd":"welcome1",
+            "weblogic_domain_dir":"/u01/domains/sigap_hml_domain",
+            "weblogic_nodes":["singap02", "sigap04","sigap08","ws02","timer02"]
+        },
+        {
+            "oracle_home" : "/home/eds000215/Dev/Oracle/Middleware12.1.3.0.0/Oracle_Home",
+            "name":"SIGAP_PRD",
+            "ssh_host":"172.16.16.65",
+            "ssh_usr":"oracle",
+            "ssh_pwd":"ETZvxadrR1g2zpAJmqiS",
+            "admin_server_name":"AdminServer",
+            "weblogic_host":"172.16.16.65",
+            "weblogic_port":"7001",
+            "weblogic_usr":"weblogic",
+            "weblogic_pwd":"IOH7cXPP5p6BCpCtWZm5",
+            "weblogic_domain_dir":"/u01/domains/sigap_prd_domain",
+            "weblogic_nodes":["singap02", "sigap04","sigap08","ws02","timer02"]
+        }
+    ]
+}
